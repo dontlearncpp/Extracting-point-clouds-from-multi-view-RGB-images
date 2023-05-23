@@ -41,7 +41,7 @@ OUTPUT:
   
   line149 zuizhong_txt = "/media/xingshixu/367a0adf-4bec-4c64-b23d-945aacb28ba5/yang/yolact++_resnet_ecam_cafpn_res/yolact/yolact-master/txt/" + str(path[1]) #  **boundary points** of MASK(txt)
   
-  3.hidden points remove
+  3.Hidden points remove
   ------
   
   INPUT:
