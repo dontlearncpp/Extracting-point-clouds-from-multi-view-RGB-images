@@ -21,17 +21,24 @@ All codes and data will be published here.
   
   line45   string xml_file = "E://niutifenge//xml//" + gongcheng + ".xml";//Read xml file (camera parameters)!!! 89.xml is obtained from contextcapuure 
   
-  line258  string srcPath = "E:\\niutifenge\\yvcetxt\\" +gongcheng+"\\";//read boundary point folder!!! 
+  line258  string srcPath = "E:\\niutifenge\\yvcetxt\\" +gongcheng+"\\";//read **boundary points** folder!!! 
   
   OUTPUT:
   
-  line252   ofstream f("E:\\niutifenge\\waican\\"+gongcheng +".txt", ios::app);//Write out the camera extrinsic parameters to remove hidden points!!! 
+  line252   ofstream f("E:\\niutifenge\\waican\\"+gongcheng +".txt", ios::app);//Write out the **camera extrinsic parameters** to remove hidden points!!! 
   
-  line480   string pcd ="E:\\niutifenge\\bufendianyun\\" +gongcheng+"\\" +src_name[numi] + ".pcd";//Internal point cloud of boundary points was output!!!
+  line480   string pcd ="E:\\niutifenge\\bufendianyun\\" +gongcheng+"\\" +src_name[numi] + ".pcd";//**Internal point cloud** of boundary points was output!!!
   
 2.Cow body segmentation based on improved YOLACT++
 
 For the implementation of YOLACT++, please refer to the official model, and the evaluation part was modified to output boundary point information
+
+OUTPUT:
+
+  line148 zuizhong_path = "/media/xingshixu/367a0adf-4bec-4c64-b23d-945aacb28ba5/yang/yolact++_resnet_ecam_cafpn_res/yolact/yolact-master/black_white/" + str(path[1]) #MASK
+  
+  line149 zuizhong_txt = "/media/xingshixu/367a0adf-4bec-4c64-b23d-945aacb28ba5/yang/yolact++_resnet_ecam_cafpn_res/yolact/yolact-master/txt/" + str(path[1]) #  **boundary points** of MASK(txt)
+  
   
   
   
