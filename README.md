@@ -11,6 +11,7 @@ All codes and data will be published here.
 ![image](https://github.com/dontlearncpp/Extracting-point-clouds-from-multi-view-RGB-images/assets/103402250/9b12f530-ca77-4482-bff7-9c81fb809130)
 
 1.Point clouds projection based on SFM
+------
 1.CPP
 
   (1)Used to parse XML files and output camera extrinsic parameters (used to remove hidden points)
@@ -30,6 +31,7 @@ All codes and data will be published here.
   line480   string pcd ="E:\\niutifenge\\bufendianyun\\" +gongcheng+"\\" +src_name[numi] + ".pcd";//**Internal point cloud** of boundary points was output!!!
   
 2.Cow body segmentation based on improved YOLACT++
+------
 
 For the implementation of YOLACT++, please refer to the official model, and the evaluation part was modified to output boundary point information
 
@@ -38,6 +40,21 @@ OUTPUT:
   line148 zuizhong_path = "/media/xingshixu/367a0adf-4bec-4c64-b23d-945aacb28ba5/yang/yolact++_resnet_ecam_cafpn_res/yolact/yolact-master/black_white/" + str(path[1]) #MASK
   
   line149 zuizhong_txt = "/media/xingshixu/367a0adf-4bec-4c64-b23d-945aacb28ba5/yang/yolact++_resnet_ecam_cafpn_res/yolact/yolact-master/txt/" + str(path[1]) #  **boundary points** of MASK(txt)
+  
+  3.hidden points remove
+  ------
+  
+  INPUT:
+  
+  line7     path = "E:\\niutifenge\\bufendianyun\\"+str(gongcheng)  # **Internal point cloud**
+  
+  line13        txtpath = "E:\\niutifenge\\waican\\"+str(gongcheng)+".txt" #**camera extrinsic parameters**
+  
+  OUTPUT:
+  
+  line9    pcdwpath = "E:\\niutifenge\\rhp\\"+str(gongcheng)+"\\"  # point clouds after hidden points removed 
+  
+  
   
   
   
