@@ -3,6 +3,7 @@ This is an official implementation of a paper titled "Extracting cow point cloud
 
 All codes and data will be published here.
 
+![MG_20211126_080519_5](https://github.com/dontlearncpp/Extracting-point-clouds-from-multi-view-RGB-images/assets/103402250/b3f4fbfb-e15a-49b6-a9a2-f653fc901c48)
 
 
 ![image](https://github.com/dontlearncpp/Extracting-point-clouds-from-multi-view-RGB-images/assets/103402250/9b12f530-ca77-4482-bff7-9c81fb809130)
