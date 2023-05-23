@@ -8,21 +8,21 @@ All codes and data will be published here.
 
 1.CPP
 
-  (1)用于解析XML文件，输出相机外参(用于去除隐藏点)
+  (1)Used to parse XML files and output camera extrinsic parameters (used to remove hidden points)
   
-  (2)并根据分割边界分割动物点云，只保留边界内的点
+  (2)Segment the scene point cloud according to the segmentation boundary, and only keep the points within the boundary
   
   INPUT:
   
-  line45   string xml_file = "E://niutifenge//xml//" + gongcheng + ".xml";//读取xml文件(相机参数)!!! 89.xml is obtained from contextcapuure 
+  line45   string xml_file = "E://niutifenge//xml//" + gongcheng + ".xml";//Read xml file (camera parameters)!!! 89.xml is obtained from contextcapuure 
   
-  line258  string srcPath = "E:\\niutifenge\\yvcetxt\\" +gongcheng+"\\";//读取边界点文件夹!!! 
+  line258  string srcPath = "E:\\niutifenge\\yvcetxt\\" +gongcheng+"\\";//read boundary point folder!!! 
   
   OUTPUT:
   
-  line252   ofstream f("E:\\niutifenge\\waican\\"+gongcheng +".txt", ios::app);//写出相机外参，用于去除隐藏点!!! 
+  line252   ofstream f("E:\\niutifenge\\waican\\"+gongcheng +".txt", ios::app);//Write out the camera extrinsic parameters to remove hidden points!!! 
   
-  line480   string pcd ="E:\\niutifenge\\bufendianyun\\" +gongcheng+"\\" +src_name[numi] + ".pcd";//输出边界点内部点云!!!
+  line480   string pcd ="E:\\niutifenge\\bufendianyun\\" +gongcheng+"\\" +src_name[numi] + ".pcd";//Internal point cloud of boundary points was output!!!
   
   
   
