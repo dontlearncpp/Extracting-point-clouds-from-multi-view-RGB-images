@@ -10,7 +10,7 @@ All codes and data will be published here.
 
 ![image](https://github.com/dontlearncpp/Extracting-point-clouds-from-multi-view-RGB-images/assets/103402250/9b12f530-ca77-4482-bff7-9c81fb809130)
 
-Multi-view images of cows is avaliable in Link：https://pan.baidu.com/s/174rdx00z1ysyHmgThdjMsQ Extraction code：vvfw
+
 
 1.Point clouds projection based on SFM
 ------
