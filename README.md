@@ -55,7 +55,7 @@ OUTPUT:
   OUTPUT:
   
   line9    pcdwpath = "E:\\niutifenge\\rhp\\"+str(gongcheng)+"\\"  # point clouds after hidden points removed 
-## If this code is helpful to you, please cite our related paper. It is helpful to me, thank you.
+## If this code is helpful to you, please cite the paper. It is helpful to me, thank you.
 Yang, G., Li, R., Zhang, S., Wen, Y., Xu, X., & Song, H. (2023). Extracting cow point clouds from multi-view RGB images with an improved YOLACT++ instance segmentation. Expert Systems with Applications, 230, 120730.
   
   
